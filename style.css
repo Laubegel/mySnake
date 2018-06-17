@@ -1,0 +1,21 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+#cont {
+	border: 1px solid;
+	float: right;
+}
+p {
+	border: 1px solid;
+}
+
+#canvas {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	border: 1px solid #000;
+	display: block;;
+	margin: auto;
+}
