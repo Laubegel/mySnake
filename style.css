@@ -2,13 +2,35 @@ html, body {
 	height: 100%;
 	margin: 0;
 }
-
-#cont {
-	border: 1px solid;
-	float: right;
+#highscore {
+	width: 100px;
+	height: 20px;
+	position: relative;
+	top: 60px;
+	left: 60px;
 }
-p {
-	border: 1px solid;
+#score {
+	width: 100px;
+	height: 20px;
+	position: relative;
+	top: 60px;
+	right: 60px;
+}
+#cont {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 80px;
+	height: 100px;
+	width: 100%;
+}
+#square {
+	background-color: #5588FF;
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: 25%;
+	left: 22.5%;
 }
 
 #canvas {
@@ -16,6 +38,6 @@ p {
 	top: 50%;
 	transform: translateY(-50%);
 	border: 1px solid #000;
-	display: block;;
+	display: block;
 	margin: auto;
 }
